@@ -1,2 +1,5 @@
-#content
+.content#fancy_text
   = @text
+= form_tag '/content/save', :remote => true, :class => 'hidden editor' do
+  = text_area_tag :text, @text, :class => 'mceEditor'
+  = submit_tag 'Save'

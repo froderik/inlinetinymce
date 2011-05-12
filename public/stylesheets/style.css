@@ -1,0 +1,16 @@
+.content {
+  border:solid;
+  border-color:white;
+  border-width:1px;
+  padding:5px;
+}
+
+.selectForEditing {
+  border:solid;
+  border-color:gray;
+  border-width:1px;
+}
+
+.hidden {
+  display: none;
+}
