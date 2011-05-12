@@ -1,4 +1,6 @@
 Inlinetinymce::Application.routes.draw do
+  match "/" => "content#home"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

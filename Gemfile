@@ -2,8 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails'
 
-# we are not bothering with a database for this example
-# gem 'sqlite3'
+gem 'sqlite3'
 
 # user friendly markup
 gem 'haml'
